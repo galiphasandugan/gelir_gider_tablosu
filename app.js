@@ -63,7 +63,10 @@ tbody.addEventListener("click", (e) => {
     tbody.lastElementChild.remove();
     modal.style.display = "block";
     setTimeout(hidden, 2000);
-
+    
+    const removeCount=e.target.closest('tr').children[2].textContent;
+    kalan.textContent=Number(removeCount) + Number(kalan.textContent)
+    gideriniz.textContent = Number(gideriniz.textContent) - Number(removeCount)
     
   }
 });
