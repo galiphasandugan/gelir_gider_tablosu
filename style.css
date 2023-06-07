@@ -1,0 +1,31 @@
+.delete {
+  background-color: #bebe;
+  width: 3rem;
+  height: 2rem;
+  color: white;
+  font-size: 12px;
+}
+.par {
+  text-align: center;
+  color: white;
+  background-color: #dede;
+  font-size: 1.5rem;
+}
+.del {
+  background-color: transparent;
+  color: red;
+  border-color: red;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.del:hover {
+  background-color: red;
+  color: white;
+}
+.td {
+  text-align: center;
+}
+
+.koray {
+  display: none;
+}
